@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Widgets</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="css/index.css" />
+    </head>
+
+    <body>
+        <div class="container py-5">
+            <div class="row text-center text-white">
+                <div class="col-lg-8 mx-auto">
+                    <img src="images/title.png" alt="" class="mb-3" />
+                    <p class="info rounded-4 py-4">
+                        Choose Any Widgets from Below to use in Vision Pro.<br />
+                        Drag them around like Apps.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row row-cols-5 text-center text-white">
+                <div class="col mb-3">
+                    <a
+                        class="d-block rounded-5 bg-calculator icon-img border-0 text-decoration-none"
+                        href="calculator.html?format=widget&name=Calculator&icon=av.remote&size=420x640"
+                    >
+                    </a>
+                    <h5 class="text-white mt-2">Calculator</h5>
+                </div>
+                <div class="col mb-3">
+                    <a
+                        class="col d-block rounded-5 bg-d-clock icon-img border-0 text-decoration-none"
+                        href="digiclock.html?format=widget&name=Digital+Clock&icon=clock&style=white&size=320x198"
+                    >
+                    </a>
+                    <h5 class="text-white mt-2">Digital Clock</h5>
+                </div>
+                <div class="col mb-3">
+                    <a
+                        class="col d-block rounded-5 bg-google-news icon-img border-0 text-decoration-none"
+                        href="widget-https://news.google.com?format=widget&name=Google+News&icon=newspaper&size=430x640&bg=ffffff44"
+                    >
+                    </a>
+                    <h5 class="text-white mt-2">Google News</h5>
+                </div>
+                <div class="col mb-3">
+                    <a
+                        class="col d-block rounded-5 bg-spotify icon-img border-0 text-decoration-none"
+                        href='widget-https://open.spotify.com?format=widget&name=Spotify Player&icon=music.note.list&size=400x600&bg=#00000044&remove=[data-testid="home-banner"],[data-testid="download-button"],[href="/download"],[href="/search/recent"],[href="/search"]+a&ua=desktop'
+                    >
+                    </a>
+                    <h5 class="text-white mt-2">Spotify</h5>
+                </div>
+                <div class="col mb-3">
+                    <a
+                        class="col d-block rounded-5 bg-clock icon-img border-0 text-decoration-none"
+                        href="analog.html?format=widget&name=Analog+Clock"
+                    >
+                    </a>
+                    <h5 class="text-white mt-2">Analog Clock</h5>
+                </div>
+                <div class="col mb-3">
+                    <a
+                        class="col d-block rounded-5 bg-crypto icon-img border-0 text-decoration-none"
+                        href="crypto.html?format=widget&name=Crypto"
+                    >
+                    </a>
+                    <h5 class="text-white mt-2">Crypto</h5>
+                </div>
+                <div class="col mb-3">
+                    <a
+                        class="col d-block rounded-5 bg-stocks icon-img border-0 text-decoration-none"
+                        href="stockwidget.html?format=widget&name=Stocks"
+                    >
+                    </a>
+                    <h5 class="text-white mt-2">Stocks</h5>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
